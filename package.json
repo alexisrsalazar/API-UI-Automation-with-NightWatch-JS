@@ -1,0 +1,17 @@
+{
+  "name": "unosquarenightwatchjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^2.6.5"
+  },
+  "dependencies": {
+    "chromedriver": "^108.0.0"
+  }
+}
