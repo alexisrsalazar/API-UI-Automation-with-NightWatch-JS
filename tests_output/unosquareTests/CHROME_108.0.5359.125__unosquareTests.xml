@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="unosquareTests.unosquareTests"
+    errors="0" failures="1" hostname="" id="" package="unosquareTests" skipped="0"
+    tests="3" time="20.53" timestamp="">
+  
+    <testcase name="test unosquare contactUs" classname="unosquareTests.unosquareTests" time="4.840" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test unosquare V2" classname="unosquareTests.unosquareTests" time="10.90" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;Element [name=@aboutMenu]&gt; has css property &#39;font-size: 12px&#39; in 5000ms - expected &#34;12px&#34; but got: &#34;11px&#34; (5420ms)">    at test unosquare V2 (C:\Users\alexis.salazar\WebstormProjects\UnosquareNightWatchJS\Tests\unosquareTests\unosquareTests.js:20:21)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="test unosquare v3" classname="unosquareTests.unosquareTests" time="4.790" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

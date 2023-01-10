@@ -1,6 +1,7 @@
 module.exports = {
     // An array of folders (excluding subfolders) where your tests are located;
     // if this is not specified, the test source must be passed as the second argument to the test runner.
+    page_objects_path:[ 'PageObjects/Unosquare','PageObjects/Nightwatch'],
     src_folders: ["Tests"],
     webdriver: {
         start_process: true,
@@ -13,9 +14,15 @@ module.exports = {
         default: {
             launch_url: 'https://nightwatchjs.org',
             desiredCapabilities: {
-                browserName: 'chrome'
+                browserName: 'chrome',
+                chromeOptions : {
+                    "args" : ["start-maximized"]
+                }
             }
         }
     }
 };
-
+/*module.exports = {
+    skip_testcases_on_fail: false,
+    src_folders: ["Tests"]
+}*/
