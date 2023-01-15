@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="apiTest.apitest"
+    errors="0" failures="1" hostname="" id="" package="apiTest" skipped="0"
+    tests="2" time="1.572" timestamp="">
+  
+    <testcase name="API Testing - GET Positive" classname="apiTest.apitest" time="1.053" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="API Testing - GET Negative" classname="apiTest.apitest" time="0.5190" assertions="2">
+
+      <failure message="Failed [equal]: (&#39;Matthew Dieterich&#39; == &#39;My Name&#39;) - expected &#34;My Name&#34; but got: &#34;Matthew Dieterich&#34; (1ms)">    at C:\Users\alexis.salazar\WebstormProjects\UnosquareNightWatchJS\Tests\apiTest\apitest.js:21:28
+    at CommandInstance.&lt;anonymous&gt; (C:\Users\alexis.salazar\WebstormProjects\UnosquareNightWatchJS\commands\apiGet.js:16:9)
+    at Stream.emit (node:events:513:28)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -15,6 +15,8 @@
     "path": "^0.12.7"
   },
   "dependencies": {
-    "chromedriver": "^108.0.0"
+    "chromedriver": "^108.0.0",
+    "request": "^2.88.2",
+    "superagent": "^8.0.6"
   }
 }
