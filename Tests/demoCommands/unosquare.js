@@ -4,7 +4,6 @@ module.exports = {
         unosquare
             .navigate()
             .contactUnosquare()
-            .clickinmultiplepages();
 
         browser.end();
     }
